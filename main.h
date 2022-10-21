@@ -1,16 +1,10 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-/* libraries to use */
-#include <unistd.h>
-#include <stdlib.h>
 #include <stdarg.h>
-#include <stddef.h>
-#include <string.h>
 
 int _putchar(char c);
 int _printf(const char *format, ...);
-int printpercent(char *format, va_list pa);
 int print_char(va_list c);
 int print_string(va_list s);
 int print_int(va_list i);
